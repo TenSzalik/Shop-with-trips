@@ -1,0 +1,15 @@
+{% extends "base/menu.html" %}
+{% load static %}
+
+{% block content %}
+    <div class="max-w-md mx-auto p-8">
+        <div class="md:shrink-0">
+            <img style="max-width: 250px;" src="{{ planet.multimedia.url }}">
+        </div>
+        <div class="p-8">
+            <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">{{planet.name}}</div>
+            <p class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">{{planet.surface_temperature}}</p>
+            <p class="mt-2 text-slate-500">{{planet.description}}</p>
+        </div>
+    </div>
+{% endblock %}

@@ -16,6 +16,7 @@ class Planet(BaseModel):
     class Meta:
         ordering = ["-created_at"]
 
+
 class Trip(BaseModel):
     SLOGANS = {"Unbelievable", "Magic", "Luxury"}
 
@@ -27,4 +28,4 @@ class Trip(BaseModel):
     description = models.TextField()
 
     def __str__(self):
-        return str(next(iter(self.SLOGANS)))+" trip on"+f" {self.planet.name}"
+        return str(next(iter(self.SLOGANS))) + " trip on" + f" {self.planet.name}"
