@@ -4,7 +4,7 @@ Simple app in Django with forms, dynamic urls, user accounts etc.
 
 ## General info
 
-This project is a simple imitation of a store with full CRUD actions. Created mainly to experiment with Tailwind CSS v3, Git and Docker.
+This project is a simple imitation of a store. Created mainly to experiment with Tailwind CSS v3, Git and Docker.
 
 ## Stack
 
